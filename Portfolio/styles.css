@@ -1,0 +1,120 @@
+/* -------  General Styles ------- */
+
+body {
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(182, 182, 182);
+  }
+  
+  header {
+    height: 140px;
+    background-color: #2b46df;
+  }
+  
+  .logo {
+    font-family: "Nanum Myeongjo", serif;
+    font-size: 72px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+    letter-spacing: -3;
+    margin: 0;
+    padding: 20px 0 0 0;
+  }
+  
+  header h2 {
+    font-family: "Nanum Myeongjo", serif;
+    color: white;
+    margin: 0px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #2b46df;
+  }
+  
+  section {
+    padding: 0 15%;
+    margin: 50px 0;
+  }
+  
+  hr {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(64, 233, 64, 0.75),
+      rgba(0, 0, 0, 0)
+    );
+  }
+  
+  /* -------  Type ------- */
+  
+  h1,
+  h2,
+  h3 {
+    font-family: "Nanum Myeongjo", serif;
+    color: #a6afb1;
+    text-align: center;
+    font-weight: 500;
+  }
+  
+  h1 {
+    font-size: 30px;
+  }
+  
+  h3 {
+    font-size: 26px;
+  }
+  
+  p,
+  li {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    line-height: 1.5em;
+    margin-bottom: 0;
+  }
+  
+  a {
+    font-weight: 700;
+    text-decoration: none;
+  }
+  a:link {
+    color: #16792c;
+  }
+  a:visited {
+    color: #16792c;
+  }
+  a:hover {
+    color: #16792c;
+  }
+  a:active {
+    color: #16792c;
+  }
+  
+  footer p {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    font-family: "Nanum Myeongjo", serif;
+  }
+  
+  /* -------  Elements ------- */
+  
+  img,
+  iframe {
+    width: 70%;
+    border-radius: 20px;
+    border: 8px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* -------  Modifier styles ------- */
+  
+  .border-top {
+    padding-top: 80px;
+    border-top: 2px solid #403933;
+  }
